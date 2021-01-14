@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import ConvergenceDomUtils from '@convergence/dom-utils';
 
 function App() {
+  console.log(ConvergenceDomUtils.DomBinder);
+
   return (
     <div className="App">
       <header className="App-header">
